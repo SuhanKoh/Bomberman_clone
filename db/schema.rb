@@ -47,24 +47,24 @@ ActiveRecord::Schema.define(version: 20151128233903) do
   end
 
   create_table "users", force: :cascade do |t|
-    t.string   "email",                  default: "",                           null: false
-    t.string   "encrypted_password",     default: "",                           null: false
+    t.string   "email",                  default: "",                            null: false
+    t.string   "encrypted_password",     default: "",                            null: false
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
-    t.integer  "sign_in_count",          default: 0,                            null: false
+    t.integer  "sign_in_count",          default: 0,                             null: false
     t.datetime "current_sign_in_at"
     t.datetime "last_sign_in_at"
     t.inet     "current_sign_in_ip"
     t.inet     "last_sign_in_ip"
-    t.datetime "created_at",                                                    null: false
-    t.datetime "updated_at",                                                    null: false
+    t.datetime "created_at",                                                     null: false
+    t.datetime "updated_at",                                                     null: false
     t.string   "provider"
     t.string   "uid"
-    t.string   "name",                                                          null: false
+    t.string   "name",                                                           null: false
     t.string   "image",                  default: "/assets/img_thumbnail_0.png"
-    t.text     "events",                 default: [],                                        array: true
-    t.text     "channels",               default: [],                                        array: true
+    t.text     "events",                 default: [],                                         array: true
+    t.text     "channels",               default: [],                                         array: true
     t.integer  "high_score",             default: 0
   end
 

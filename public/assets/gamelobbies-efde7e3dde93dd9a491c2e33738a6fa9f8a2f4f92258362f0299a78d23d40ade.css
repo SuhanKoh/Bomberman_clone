@@ -1,0 +1,733 @@
+/* line 15, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+html {
+  min-height: 100%;
+  min-width: 100%;
+  position: relative;
+  background-color: #000;
+}
+
+/* line 22, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+body {
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-image: url("/assets/img_gamelobby_bg.png");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: #000;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+/* line 40, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper {
+  height: 100%;
+  width: 100%;
+  font-family: 'Righteous', cursive;
+}
+/* line 45, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+/* line 52, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container .navbar-toggle {
+  background-color: #111111;
+  border: 3px #006699;
+}
+/* line 56, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container .navbar-toggle .icon-bar {
+  background-color: #006699;
+  color: #006699;
+}
+/* line 63, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #gl-header {
+  width: 100%;
+}
+/* line 66, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #gl-header .navbar {
+  border-style: none;
+  border-radius: 0 !important;
+  background-color: #111111;
+}
+/* line 72, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons,
+#gl-wrapper #gl-main-container #gl-header #gl-header-small {
+  height: 80px;
+  background-color: #111111;
+  border-color: #000000;
+}
+/* line 78, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons .gl-header-inner-nav,
+#gl-wrapper #gl-main-container #gl-header #gl-header-small .gl-header-inner-nav {
+  position: relative;
+  margin-top: -5px;
+  margin-right: 35px;
+  margin-left: 25px;
+}
+/* line 85, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons a,
+#gl-wrapper #gl-main-container #gl-header #gl-header-small a {
+  background-color: #111111;
+}
+/* line 88, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons .navbar-brand,
+#gl-wrapper #gl-main-container #gl-header #gl-header-small .navbar-brand {
+  font-size: 2.5em;
+  color: #f7c500;
+}
+/* line 91, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons .navbar-brand:hover, #gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons .navbar-brand:focus,
+#gl-wrapper #gl-main-container #gl-header #gl-header-small .navbar-brand:hover,
+#gl-wrapper #gl-main-container #gl-header #gl-header-small .navbar-brand:focus {
+  color: #ffdf5f;
+}
+/* line 93, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons .navbar-text,
+#gl-wrapper #gl-main-container #gl-header #gl-header-small .navbar-text {
+  color: #ecf0f1;
+}
+/* line 97, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons .navbar-nav > li > a,
+#gl-wrapper #gl-main-container #gl-header #gl-header-small .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+/* line 99, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons .navbar-nav > li > a:hover, #gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons .navbar-nav > li > a:focus,
+#gl-wrapper #gl-main-container #gl-header #gl-header-small .navbar-nav > li > a:hover,
+#gl-wrapper #gl-main-container #gl-header #gl-header-small .navbar-nav > li > a:focus {
+  color: #f7c500;
+  border-bottom: 2px solid #f7c500;
+}
+/* line 104, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons .navbar-nav > li > .dropdown-menu,
+#gl-wrapper #gl-main-container #gl-header #gl-header-small .navbar-nav > li > .dropdown-menu {
+  background-color: #111111;
+}
+/* line 106, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons .navbar-nav > li > .dropdown-menu > li > a,
+#gl-wrapper #gl-main-container #gl-header #gl-header-small .navbar-nav > li > .dropdown-menu > li > a {
+  color: #ecf0f1;
+}
+/* line 108, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons .navbar-nav > li > .dropdown-menu > li > a:hover, #gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons .navbar-nav > li > .dropdown-menu > li > a:focus,
+#gl-wrapper #gl-main-container #gl-header #gl-header-small .navbar-nav > li > .dropdown-menu > li > a:hover,
+#gl-wrapper #gl-main-container #gl-header #gl-header-small .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #f7c500;
+  background-color: #000000;
+}
+/* line 111, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons .navbar-nav > li > .dropdown-menu .divider,
+#gl-wrapper #gl-main-container #gl-header #gl-header-small .navbar-nav > li > .dropdown-menu .divider {
+  background-color: #000000;
+}
+/* line 115, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons .navbar-nav > .active > a, #gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons .navbar-nav > .active > a:hover, #gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons .navbar-nav > .active > a:focus,
+#gl-wrapper #gl-main-container #gl-header #gl-header-small .navbar-nav > .active > a,
+#gl-wrapper #gl-main-container #gl-header #gl-header-small .navbar-nav > .active > a:hover,
+#gl-wrapper #gl-main-container #gl-header #gl-header-small .navbar-nav > .active > a:focus {
+  color: #f7c500;
+  background-color: #000000;
+}
+/* line 119, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons .navbar-nav > .open > a, #gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons .navbar-nav > .open > a:hover, #gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons .navbar-nav > .open > a:focus,
+#gl-wrapper #gl-main-container #gl-header #gl-header-small .navbar-nav > .open > a,
+#gl-wrapper #gl-main-container #gl-header #gl-header-small .navbar-nav > .open > a:hover,
+#gl-wrapper #gl-main-container #gl-header #gl-header-small .navbar-nav > .open > a:focus {
+  color: #f7c500;
+  background-color: #000000;
+}
+/* line 122, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons .navbar-toggle,
+#gl-wrapper #gl-main-container #gl-header #gl-header-small .navbar-toggle {
+  border-color: #006699;
+}
+/* line 124, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons .navbar-toggle:hover, #gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons .navbar-toggle:focus,
+#gl-wrapper #gl-main-container #gl-header #gl-header-small .navbar-toggle:hover,
+#gl-wrapper #gl-main-container #gl-header #gl-header-small .navbar-toggle:focus {
+  background-color: #000000;
+}
+/* line 126, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons .navbar-toggle .icon-bar,
+#gl-wrapper #gl-main-container #gl-header #gl-header-small .navbar-toggle .icon-bar {
+  background-color: #006699;
+}
+/* line 129, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons .navbar-toggle:hover,
+#gl-wrapper #gl-main-container #gl-header #gl-header-small .navbar-toggle:hover {
+  border-color: #0085c7;
+}
+/* line 131, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons .navbar-toggle:hover .icon-bar,
+#gl-wrapper #gl-main-container #gl-header #gl-header-small .navbar-toggle:hover .icon-bar {
+  background-color: #0085c7;
+}
+/* line 135, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons .navbar-collapse,
+#gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons .navbar-form,
+#gl-wrapper #gl-main-container #gl-header #gl-header-small .navbar-collapse,
+#gl-wrapper #gl-main-container #gl-header #gl-header-small .navbar-form {
+  border-color: #ecf0f1;
+}
+/* line 138, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons .navbar-link,
+#gl-wrapper #gl-main-container #gl-header #gl-header-small .navbar-link {
+  color: #ecf0f1;
+}
+/* line 140, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons .navbar-link:hover,
+#gl-wrapper #gl-main-container #gl-header #gl-header-small .navbar-link:hover {
+  color: #f7c500;
+}
+/* line 145, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #gl-header #gl-header-small button {
+  border: 2px solid #000000;
+}
+@media (max-width: 767px) {
+  /* line 151, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+  #gl-wrapper #gl-main-container #gl-header .gl-header-inner-nav {
+    top: 0;
+  }
+  /* line 155, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+  #gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons #gl-header-small .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  /* line 157, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+  #gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons #gl-header-small .navbar-nav .open .dropdown-menu > li > a:hover, #gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons #gl-header-small .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #f7c500;
+  }
+  /* line 160, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+  #gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons #gl-header-small .navbar-nav .open .dropdown-menu > .active > a, #gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons #gl-header-small .navbar-nav .open .dropdown-menu > .active > a:hover, #gl-wrapper #gl-main-container #gl-header #gl-header-menu-buttons #gl-header-small .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #f7c500;
+    background-color: #000000;
+  }
+}
+/* line 167, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #gl-content,
+#gl-wrapper #gl-main-container #game-lobbies,
+#gl-wrapper #gl-main-container #game-lobbies-content,
+#gl-wrapper #gl-main-container #game-room {
+  width: 100%;
+  height: 97%;
+  background-color: transparent;
+}
+/* line 176, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-lobbies-content {
+  position: relative;
+  height: 90%;
+  width: 80%;
+  left: 15px;
+  top: 80px;
+}
+/* line 183, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-lobbies-content #gl-content-container {
+  height: 88%;
+}
+/* line 186, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-lobbies-content #gl-content-container .container-fluid {
+  max-height: 100%;
+  overflow: auto;
+  height: 100%;
+  margin-bottom: -80px;
+  background-color: transparent;
+}
+/* line 193, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-lobbies-content #gl-content-container .container-fluid .gl-container-content {
+  height: 100%;
+  background-color: transparent;
+  margin-bottom: -80px;
+}
+/* line 198, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-lobbies-content #gl-content-container .container-fluid .gl-container-content .row {
+  margin-bottom: 15px;
+}
+/* line 201, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-lobbies-content #gl-content-container .container-fluid .gl-container-content .row .gl-game-item-container:hover {
+  background: rgba(0, 0, 0, 0.75);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.75) 0%, rgba(38, 38, 38, 0.25) 25%, rgba(153, 153, 153, 0.25) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.75)), color-stop(25%, rgba(38, 38, 38, 0.25)), color-stop(100%, rgba(153, 153, 153, 0.25)));
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.75) 0%, rgba(38, 38, 38, 0.25) 25%, rgba(153, 153, 153, 0.25) 100%);
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0.75) 0%, rgba(38, 38, 38, 0.25) 25%, rgba(153, 153, 153, 0.25) 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.75) 0%, rgba(38, 38, 38, 0.25) 25%, rgba(153, 153, 153, 0.25) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75) 0%, rgba(38, 38, 38, 0.25) 25%, rgba(153, 153, 153, 0.25) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#999999', GradientType=0 );
+}
+/* line 212, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-lobbies-content #gl-content-container .container-fluid .gl-container-content .row .gl-game-item-container {
+  border-radius: 10px 10px 0 10px;
+  background: rgba(0, 0, 0, 0.75);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.75) 0%, rgba(30, 30, 30, 0.25) 25%, rgba(119, 119, 119, 0.25) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.75)), color-stop(25%, rgba(30, 30, 30, 0.25)), color-stop(100%, rgba(119, 119, 119, 0.25)));
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.75) 0%, rgba(30, 30, 30, 0.25) 25%, rgba(119, 119, 119, 0.25) 100%);
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0.75) 0%, rgba(30, 30, 30, 0.25) 25%, rgba(119, 119, 119, 0.25) 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.75) 0%, rgba(30, 30, 30, 0.25) 25%, rgba(119, 119, 119, 0.25) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75) 0%, rgba(30, 30, 30, 0.25) 25%, rgba(119, 119, 119, 0.25) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#777777', GradientType=0 );
+}
+/* line 224, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-lobbies-content #gl-content-container .container-fluid .gl-container-content .row .gl-game-item-container .gl-title {
+  color: #f7c500;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+/* line 233, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-lobbies-content #gl-content-container .container-fluid .gl-container-content .row .gl-game-item-container hr {
+  margin: 10px 15px 5px;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-color: #f7c500;
+}
+/* line 240, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-lobbies-content #gl-content-container .container-fluid .gl-container-content .row .gl-game-item-container .gl-game-item {
+  margin: 15px;
+  display: flex;
+}
+/* line 244, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-lobbies-content #gl-content-container .container-fluid .gl-container-content .row .gl-game-item-container .gl-game-item .gl-game-item-right {
+  margin-left: 10px;
+  display: block;
+}
+/* line 248, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-lobbies-content #gl-content-container .container-fluid .gl-container-content .row .gl-game-item-container .gl-game-item .gl-game-item-right span {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+/* line 258, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-lobbies-content #gl-content-container .container-fluid .gl-container-content .row .gl-game-item-container .gl-game-item-footer {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+/* line 263, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-lobbies-content #gl-content-container .container-fluid .gl-container-content .row .gl-game-item-container .gl-game-item-footer .btn-gl-custom {
+  width: 100px;
+}
+/* line 273, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-lobbies-content #game-lobbies-content-footer {
+  position: relative;
+  height: 60px;
+  width: 100%;
+}
+/* line 281, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-room #game-lobbies-content {
+  position: relative;
+  height: 90%;
+  width: 80%;
+  left: 15px;
+  top: 80px;
+}
+/* line 288, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container {
+  height: 88%;
+}
+/* line 291, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid {
+  width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  height: 100%;
+  margin-bottom: -80px;
+}
+/* line 298, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid .gr-container-content {
+  height: 100%;
+  margin-bottom: -80px;
+}
+/* line 302, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid .gr-container-content .row {
+  padding-bottom: 6%;
+}
+/* line 306, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid .gr-container-content .row #game-info-players-thumbnails-container #gr-info-container {
+  border: 2px solid #f7c500;
+  border-radius: 10px 10px 0 10px;
+}
+/* line 310, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid .gr-container-content .row #game-info-players-thumbnails-container #gr-info-container .gr-title {
+  color: #f7c500;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+/* line 319, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid .gr-container-content .row #game-info-players-thumbnails-container #gr-info-container hr {
+  margin: 10px 15px 5px;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-color: #f7c500;
+}
+/* line 326, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid .gr-container-content .row #game-info-players-thumbnails-container #gr-info-container .gr-content {
+  margin: 15px;
+}
+/* line 329, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid .gr-container-content .row #game-info-players-thumbnails-container #gr-info-container .gr-content span {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 35px;
+  display: block;
+  word-wrap: break-word;
+}
+/* line 342, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid .gr-container-content .row #game-info-players-thumbnails-container #gr-players-container .container-fluid {
+  max-height: none;
+  height: 100%;
+  overflow: hidden;
+}
+/* line 348, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid .gr-container-content .row #game-info-players-thumbnails-container #gr-players-container .container-fluid .row .player-info {
+  margin-top: -25px;
+  margin-bottom: 30px;
+  margin-left: -15px;
+  padding-bottom: 15px;
+}
+/* line 354, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid .gr-container-content .row #game-info-players-thumbnails-container #gr-players-container .container-fluid .row .player-info .image-with-selection {
+  width: 100%;
+  display: inline-block;
+}
+/* line 358, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid .gr-container-content .row #game-info-players-thumbnails-container #gr-players-container .container-fluid .row .player-info .image-with-selection #image-selection-arrow-container {
+  width: 24px;
+  height: 100%;
+  text-align: center;
+  display: inline-flex;
+}
+/* line 364, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid .gr-container-content .row #game-info-players-thumbnails-container #gr-players-container .container-fluid .row .player-info .image-with-selection #image-selection-arrow-container #image-selection-arrow {
+  height: 24px;
+  width: 16px;
+  margin: 0;
+  cursor: pointer;
+  background-image: url("/assets/btn_arrow_right.png");
+  background-repeat: no-repeat;
+}
+/* line 373, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid .gr-container-content .row #game-info-players-thumbnails-container #gr-players-container .container-fluid .row .player-info .image-with-selection #image-selection-arrow-container #image-selection-arrow:hover {
+  background-image: url("/assets/btn_arrow_right_hover.png");
+}
+/* line 379, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid .gr-container-content .row #game-info-players-thumbnails-container #gr-players-container .container-fluid .row .player-info .player-info-name {
+  color: #f7c500;
+}
+@media (max-width: 767px) {
+  /* line 388, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+  #gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid .gr-container-content .row #game-info-players-thumbnails-container #gr-players-container .container-fluid {
+    margin-top: 0;
+  }
+  /* line 392, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+  #gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid .gr-container-content .row #game-info-players-thumbnails-container #gr-players-container .container-fluid .row .player-info {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+/* line 404, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid .gr-container-content .row #map-selection-container .gr-title {
+  color: #f7c500;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+/* line 413, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid .gr-container-content .row #map-selection-container hr {
+  margin: 10px 15px 5px;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-color: #f7c500;
+}
+/* line 420, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid .gr-container-content .row #map-selection-container #map-content {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+/* line 424, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid .gr-container-content .row #map-selection-container #map-content .container-fluid {
+  height: 100%;
+  width: 100%;
+}
+/* line 429, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid .gr-container-content .row #map-selection-container #map-content .container-fluid .map-image-button-container img {
+  max-height: 200px;
+}
+/* line 433, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid .gr-container-content .row #map-selection-container #map-content .container-fluid .map-image-button-container label > input {
+  display: none;
+}
+/* line 438, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid .gr-container-content .row #map-selection-container #map-content .container-fluid .map-image-button-container label > input + img {
+  border-radius: 10px;
+  cursor: pointer;
+}
+/* line 444, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid .gr-container-content .row #map-selection-container #map-content .container-fluid .map-image-button-container label > input + img:hover {
+  border: 3px solid #f7c500;
+  border-radius: 10px;
+}
+/* line 449, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid .gr-container-content .row #map-selection-container #map-content .container-fluid .map-image-button-container label > input:checked + img {
+  border: 5px solid #ffdf5f;
+}
+/* line 454, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid .gr-container-content .row #map-selection-container #map-content .container-fluid .map-image-button-container .disable-hover {
+  border: none !important;
+  cursor: auto !important;
+}
+/* line 459, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid .gr-container-content .row #map-selection-container #map-content .container-fluid .map-image-button-container .checked-map {
+  border: 5px solid #ffdf5f !important;
+}
+@media (max-width: 767px) {
+  /* line 469, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+  #gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid .gr-container-content .row {
+    padding-bottom: 20%;
+  }
+  /* line 475, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+  #gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid .gr-container-content #gr-players-container .container-fluid .row {
+    padding-bottom: 15px;
+  }
+}
+@media (max-width: 577px) {
+  /* line 483, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+  #gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid .gr-container-content .row {
+    padding-bottom: 30%;
+  }
+  /* line 489, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+  #gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-container .container-fluid .gr-container-content #gr-players-container .container-fluid .row {
+    padding-bottom: 15px;
+  }
+}
+/* line 499, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-wrapper #gl-main-container #game-room #game-lobbies-content #gr-content-footer {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+/* line 508, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#gl-sidebar {
+  position: fixed;
+  height: 100%;
+  width: 19%;
+  right: 0;
+}
+
+/* line 515, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+.btn-gl-custom {
+  position: relative;
+  width: 150px;
+  height: 40px;
+  margin: 5px;
+  color: #fff;
+  background-color: #006699;
+  border: 2px solid transparent;
+  -moz-border-image: -moz-linear-gradient(left, #aaaaaa 0%, #006699 100%);
+  -webkit-border-image: -webkit-linear-gradient(left, #aaaaaa 0%, #006699 100%);
+  border-image: linear-gradient(to bottom right, #aaaaaa 0%, #006699 100%);
+  border-image-slice: 1;
+}
+
+/* line 529, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+.btn-gl-cancel {
+  background-color: #5d5d5d;
+  border: 2px solid transparent;
+  -moz-border-image: -moz-linear-gradient(left, #aaaaaa 0%, #323232 100%);
+  -webkit-border-image: -webkit-linear-gradient(left, #aaaaaa 0%, #323232 100%);
+  border-image: linear-gradient(to bottom right, #aaaaaa 0%, #323232 100%);
+  border-image-slice: 1;
+}
+
+/* line 538, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+.btn,
+.disabled,
+.btn-gl-custom:active {
+  outline: none;
+}
+
+/* line 544, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+.btn-gl-custom:hover {
+  color: #fff;
+  background-color: #0085c7;
+}
+
+/* line 549, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+.btn-gl-cancel:hover {
+  background-color: #323232;
+}
+
+/* line 553, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+button:focus {
+  outline: 0;
+}
+
+/* line 557, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+.img-user-thumbnail {
+  height: 100px;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 564, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#ui-chatbox {
+  height: 385px;
+  /* 20 + 6 + 6 + 250 + 50 + 2% (from titlebar, chatlog, inputbox, padding, and margin */
+  width: 95% !important;
+  position: absolute !important;
+  left: 0;
+  background: transparent !important;
+  font-family: 'Righteous', cursive;
+}
+/* line 572, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#ui-chatbox .ui-chatbox-titlebar {
+  height: 40px;
+  cursor: pointer;
+  font-size: 16px;
+}
+/* line 577, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#ui-chatbox .ui-chatbox-titlebar #chatbox-notification-icon {
+  padding-left: 10px;
+}
+/* line 581, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#ui-chatbox .ui-chatbox-titlebar .ui-icon {
+  background-image: url("/assets/ui-icons_f7c500_256x240.png");
+}
+/* line 586, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#ui-chatbox .ui-widget-header {
+  border: 10px solid #006699;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+  width: 100% !important;
+  background: #006699;
+}
+/* line 594, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#ui-chatbox .ui-widget-header:hover,
+#ui-chatbox .ui-widget-header:focus,
+#ui-chatbox .ui-widget-header:active {
+  color: #fff !important;
+  border-color: #0085c7 !important;
+  background: #0085c7;
+}
+/* line 602, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#ui-chatbox .ui-state-focus {
+  color: #fff;
+}
+/* line 606, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#ui-chatbox .ui-chatbox-content {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-left: 2px solid #006699;
+  border-right: 2px solid #006699;
+}
+/* line 614, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#ui-chatbox .ui-chatbox-log {
+  padding: 5px 10px;
+  height: 250px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border: none;
+}
+/* line 622, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#ui-chatbox .ui-widget-content {
+  width: 100% !important;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.15);
+}
+/* line 628, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#ui-chatbox .ui-chatbox-input {
+  width: 100% !important;
+  overflow: hidden;
+  border: 2px solid #006699;
+  border-top: 2px solid #f7c500;
+  border-left: 0;
+  border-right: 0;
+}
+/* line 637, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#ui-chatbox .ui-chatbox-input-box {
+  margin: 2%;
+  padding: 2%;
+  height: 50px;
+  color: #000;
+}
+/* line 644, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#ui-chatbox .ui-chatbox-icon {
+  float: right;
+}
+/* line 648, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#ui-chatbox .ui-chatbox-input-focus {
+  border-color: #6699FF;
+}
+/* line 652, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#ui-chatbox .ui-chatbox-msg {
+  margin-top: 10px;
+  float: left;
+  clear: both;
+  /* Source: http://snipplr.com/view/10979/css-cross-browser-word-wrap */
+  white-space: pre-wrap;
+  /* CSS3 */
+  white-space: -moz-pre-wrap;
+  /* Firefox */
+  white-space: -pre-wrap;
+  /* Opera <7 */
+  white-space: -o-pre-wrap;
+  /* Opera 7 */
+  word-wrap: break-word;
+  /* IE */
+}
+
+/* line 667, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#ui-chatbox:hover .ui-widget-content {
+  background: rgba(0, 0, 0, 0.15);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.15) 0%, rgba(38, 38, 38, 0.15) 50%, rgba(128, 128, 128, 0.15) 75%, rgba(217, 217, 217, 0.15) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.15)), color-stop(50%, rgba(38, 38, 38, 0.15)), color-stop(75%, rgba(128, 128, 128, 0.15)), color-stop(100%, rgba(217, 217, 217, 0.15)));
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.15) 0%, rgba(38, 38, 38, 0.15) 50%, rgba(128, 128, 128, 0.15) 75%, rgba(217, 217, 217, 0.15) 100%);
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0.15) 0%, rgba(38, 38, 38, 0.15) 50%, rgba(128, 128, 128, 0.15) 75%, rgba(217, 217, 217, 0.15) 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.15) 0%, rgba(38, 38, 38, 0.15) 50%, rgba(128, 128, 128, 0.15) 75%, rgba(217, 217, 217, 0.15) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 0%, rgba(38, 38, 38, 0.15) 50%, rgba(128, 128, 128, 0.15) 75%, rgba(217, 217, 217, 0.15) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#d9d9d9', GradientType=0 );
+}
+
+/* line 680, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#loading-screen {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(192, 192, 192, 0.5);
+  background-image: url("/assets/anim_loading_screen.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* line 694, /Users/Suhan/Bomberman_clone/app/assets/stylesheets/gamelobbies.scss */
+#notice {
+  position: fixed;
+  top: 40px;
+  left: 35%;
+  font-size: 16px;
+  color: #f7c500;
+  font-family: 'Righteous', cursive;
+}
