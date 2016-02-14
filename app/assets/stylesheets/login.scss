@@ -2,7 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-$instanceUrl            : "http://team-b.herokuapp.com";
 $btnBorderDefault       : #006699;
 $btnBorderHighlight     : #0085c7;
 $bgDefault              : #111111;
@@ -25,7 +24,7 @@ body {
   top: 0;
   left: 0;
   position: absolute;
-  background-image: url($instanceUrl + "/assets/img_login_bg");
+  background-image: url("/assets/img_login_bg");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -175,11 +174,11 @@ body {
         width: 24px;
         margin: 0 auto;
         cursor: pointer;
-        background-image: url($instanceUrl + "/assets/btn_arrow.png");
+        background-image: url("/assets/btn_arrow.png");
       }
 
       #image-selection-arrow:hover {
-        background-image: url($instanceUrl + "/assets/btn_arrow_hover.png");
+        background-image: url("/assets/btn_arrow_hover.png");
       }
     }
   }
