@@ -33,7 +33,7 @@ function createChatBox(chatboxTitle, chName) {
     var topOffset = $("#gl-sidebar").height() - $("#ui-chatbox").height();
     $("#ui-chatbox").css("top", topOffset);
 
-    notificationSound = new Audio(INSTANCE_URL + '/assets/chatsound.mp3');
+    notificationSound = new Audio('/assets/chatsound.mp3');
     notificationSound.loop = false;
     notificationSound.volume = 1.0;
 }

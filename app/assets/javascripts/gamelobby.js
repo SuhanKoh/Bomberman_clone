@@ -110,7 +110,7 @@ function setupGameLobby() {
     selectedMapId = "0";
 
     // Play background music
-    lobbyMusic = new Audio(INSTANCE_URL + '/assets/lobbybgmusic.mp3');
+    lobbyMusic = new Audio('/assets/lobbybgmusic.mp3');
     lobbyMusic.loop = true;
     lobbyMusic.volume = 0.1;
     lobbyMusic.play();
@@ -499,7 +499,7 @@ function nextThumbnail() {
     }
 
     // Change the image to display to user
-    $("#img-thumbnail").attr("src", INSTANCE_URL + "/assets/img_thumbnail_" + selectedThumbnail + ".png");
+    $("#img-thumbnail").attr("src", "/assets/img_thumbnail_" + selectedThumbnail + ".png");
 
     $.ajax({
         type: "POST",
@@ -510,7 +510,7 @@ function nextThumbnail() {
             {
                 "user_id": userId,
                 "channel_name": channelName,
-                "image": INSTANCE_URL + "/assets/img_thumbnail_" + selectedThumbnail + ".png"
+                "image": "/assets/img_thumbnail_" + selectedThumbnail + ".png"
             }
         )
     });
