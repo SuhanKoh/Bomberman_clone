@@ -78,7 +78,7 @@
                               <% thumbnail = user[:image] %>
 
                               <% if user[:image].nil? || user[:image].to_s == "" %>
-                                  <% thumbnail = instance_url + "/assets/img_thumbnail_0.png" %>
+                                  <% thumbnail = "/assets/img_thumbnail_0.png" %>
                                   <% user[:image] = thumbnail %>
                                   <% user.save %>
                               <% end %>
