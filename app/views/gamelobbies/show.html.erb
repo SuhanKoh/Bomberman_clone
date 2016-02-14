@@ -58,7 +58,7 @@
                       <div class="col-sm-6">
                         <div class="player-info">
                           <% name = "" %>
-                          <% image = instance_url + "/assets/img_thumbnail_0.png" %>
+                          <% image = "/assets/img_thumbnail_0.png" %>
                           <% user = users[0].nil? ? nil : User.find(users[0]) %>
                           <% if ! user.nil? %>
                               <% name = user[:name] %>
@@ -88,7 +88,7 @@
                       <div class="col-sm-6">
                         <div class="player-info">
                           <% name = "" %>
-                          <% image = instance_url + "/assets/img_thumbnail_0.png" %>
+                          <% image = "/assets/img_thumbnail_0.png" %>
                           <% user = users[1].nil? ? nil : User.find(users[1]) %>
                           <% if ! user.nil? %>
                               <% name = user[:name] %>
@@ -121,7 +121,7 @@
                       <div class="col-sm-6">
                         <div class="player-info">
                           <% name = "" %>
-                          <% image = instance_url + "/assets/img_thumbnail_0.png" %>
+                          <% image = "/assets/img_thumbnail_0.png" %>
                           <% user = users[2].nil? ? nil : User.find(users[2]) %>
                           <% if ! user.nil? %>
                               <% name = user[:name] %>
@@ -151,7 +151,7 @@
                       <div class="col-sm-6">
                         <div class="player-info">
                           <% name = "" %>
-                          <% image = instance_url + "/assets/img_thumbnail_0.png" %>
+                          <% image = "/assets/img_thumbnail_0.png" %>
                           <% user = users[3].nil? ? nil : User.find(users[3]) %>
                           <% if ! user.nil? %>
                               <% name = user[:name] %>
@@ -213,7 +213,7 @@
                             />
 
                             <img class="img-responsive <%= current_user[:id].to_s == host[:id].to_s ? "" : "disable-hover" %> <%= @gamelobby[:selected_map] == j ?  "checked-map" : "" %>"
-                              src="<%= instance_url + map_paths[j] %>" >
+                              src="<%= map_paths[j] %>" >
                           </label>
                         </div>
 
