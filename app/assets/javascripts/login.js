@@ -2,7 +2,6 @@
  * Created by Su Khai Koh on 11/4/15.
  */
 
-var INSTANCE_URL = "http://team-b.herokuapp.com";
 var THUMBNAIL_COUNT = 6;
 var IMAGES_PATH =
     [
@@ -28,17 +27,17 @@ function preloadImages() {
 
     // Load all the thumbnail images
     for (var i = 0; i < THUMBNAIL_COUNT; i++) {
-        imageObject.src = INSTANCE_URL + "/assets/img_thumbnail_" + i + ".png";
+        imageObject.src = "/assets/img_thumbnail_" + i + ".png";
     }
 
     // Load all the remaining images
     for (var i = 0; i < IMAGES_PATH.length; i++) {
-        imageObject.src = INSTANCE_URL + "/assets/" + IMAGES_PATH[i];
+        imageObject.src = "/assets/" + IMAGES_PATH[i];
     }
 }
 
 $("#btn-forgot-password").click(function() {
-    location.href = INSTANCE_URL + "/users/password/new";
+    location.href = "/users/password/new";
 });
 
 function btnClicked() {
@@ -50,8 +49,8 @@ function btnClicked() {
     }
 
     // Change the image to display to user
-    $("#img-thumbnail").attr("src", INSTANCE_URL + "/assets/img_thumbnail_" + selectedThumbnail + ".png");
+    $("#img-thumbnail").attr("src", "/assets/img_thumbnail_" + selectedThumbnail + ".png");
 
     // Change the value that will be written to the User database
-    $("#image-path").attr("value", INSTANCE_URL + "/assets/img_thumbnail_" + selectedThumbnail + ".png");
+    $("#image-path").attr("value", "/assets/img_thumbnail_" + selectedThumbnail + ".png");
 }
