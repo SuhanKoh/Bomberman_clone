@@ -69,3 +69,5 @@ gem 'rails_serve_static_assets'
 
 gem 'rails_stdout_logging'
 
+gem 'non-stupid-digest-assets', '~> 1.0', '>= 1.0.6'
+
