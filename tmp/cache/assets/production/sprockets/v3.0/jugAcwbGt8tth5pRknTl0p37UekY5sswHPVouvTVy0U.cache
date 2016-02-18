@@ -1,0 +1,45 @@
+{:uriI"€file://app/assets/javascripts/map.json?type=application/json&id=e37d32347f42e53ac2d76d3c8b0fd543f73fd8134c9d54a7a3e27af5bd21e739:ET:load_pathI"app/assets/javascripts;T:filenameI"$app/assets/javascripts/map.json;T:	nameI"map;T:logical_pathI"map.json;T:content_typeI"application/json;T:sourceI"©{ "height":17,
+ "layers":[
+        {
+         "data":[27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 113, 113, 113, 113, 113, 113, 113, 113, 113, 113, 113, 113, 113, 113, 113, 27, 27, 113, 132, 135, 132, 135, 132, 113, 132, 113, 132, 135, 132, 135, 132, 113, 27, 27, 113, 135, 135, 113, 113, 113, 113, 113, 113, 113, 113, 113, 135, 135, 113, 27, 27, 113, 132, 113, 132, 113, 113, 113, 113, 113, 113, 113, 132, 113, 132, 113, 27, 27, 113, 135, 113, 113, 113, 113, 132, 135, 132, 113, 113, 113, 113, 135, 113, 27, 27, 113, 132, 113, 113, 113, 132, 135, 135, 135, 132, 113, 113, 113, 132, 113, 27, 27, 113, 113, 113, 113, 113, 135, 135, 132, 135, 135, 113, 113, 113, 113, 113, 27, 27, 113, 132, 113, 113, 132, 132, 135, 135, 135, 135, 132, 113, 113, 132, 113, 27, 27, 113, 113, 113, 113, 132, 135, 135, 135, 135, 132, 132, 113, 113, 113, 113, 27, 27, 113, 132, 113, 113, 113, 135, 135, 132, 135, 135, 113, 113, 113, 132, 113, 27, 27, 113, 135, 113, 113, 113, 132, 135, 135, 135, 132, 113, 113, 113, 135, 113, 27, 27, 113, 132, 113, 132, 113, 113, 132, 135, 132, 113, 113, 132, 113, 132, 113, 27, 27, 113, 135, 135, 113, 113, 113, 113, 113, 113, 113, 113, 113, 135, 135, 113, 27, 27, 113, 132, 135, 132, 135, 132, 113, 132, 113, 132, 135, 132, 135, 132, 113, 27, 27, 113, 113, 113, 113, 113, 113, 113, 113, 113, 113, 113, 113, 113, 113, 113, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27],
+         "height":17,
+         "name":"Tile Layer 1",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":17,
+         "x":0,
+         "y":0
+        }],
+ "nextobjectid":1,
+ "orientation":"orthogonal",
+ "properties":
+    {
+
+    },
+ "renderorder":"right-down",
+ "tileheight":32,
+ "tilesets":[
+        {
+         "firstgid":1,
+         "image":"F:\/Downloads\/phaser-examples-master\/examples\/assets\/tilemaps\/tiles\/gridtiles.png",
+         "imageheight":320,
+         "imagewidth":448,
+         "margin":0,
+         "name":"tiles",
+         "properties":
+            {
+
+            },
+         "spacing":0,
+         "tilecount":140,
+         "tileheight":32,
+         "tilewidth":32
+        }],
+ "tilewidth":32,
+ "version":1,
+ "width":17
+};T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"@processors:type=application/json&file_type=application/json;TTI"2file-digest://app/assets/javascripts/map.json;TT:charsetI"
+utf-8;F:digest"%RïrÀ¦øÃ¨ÊÑY$ä@í£DrøGWaÒi'x:lengthi©:dependencies_digest"%ý‡ù:	»RÄ4%Ò?R—&-¦(2²Ï¡S&ö¨ìgy.:idI"Ee37d32347f42e53ac2d76d3c8b0fd543f73fd8134c9d54a7a3e27af5bd21e739;F:
+mtimel+	ÅV
