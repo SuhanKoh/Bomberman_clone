@@ -4,6 +4,8 @@ The master branch is the one on Heroku, the dev branch does not reflect the chan
 
 * https://docs.google.com/presentation/d/141uRHahvttO2P-gePTC43sOIBHvo6hDW5waDLfqaJLw
 
+== Demo (video)[https://www.youtube.com/watch?v=BFs61mIl7NE]
+http://img.youtube.com/vi/BFs61mIl7NE/0.jpg
 
 
 == Notes for Team B
